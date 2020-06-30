@@ -126,6 +126,8 @@ body
   width:90%; /*of window width*/
   margin:auto; /*to have it in the middle*/
   overflow:hidden; /* so whats outside is hidden */
+  
+  display: block; 
 }
 
 /**********************************************************/
@@ -177,6 +179,66 @@ body
     text-decoration: underline;
   }
 
+/*****************Trailer*******************/
+.trailer
+{
+  background-color: #333333;
+
+  margin: 35px 0 15px 0;
+  
+  /*display: block; /*not sure if this is needed*/ 
+}
+
+.trailer iframe
+{
+  /*make video adjust to window size but dont get bigger than 480p*/
+  width: 100%;
+  height: calc(0.5*100vw);
+  max-height: 480px;
+  max-width: 640px;
+  float: center;
+  
+  /*to make it centered*/
+  display: block; 
+  margin: auto;
+  text-align: center
+}
+
+.trailer h3
+{
+  padding-top: 10px;
+  /*color: yellow;*/
+  background-color: transparent;
+  /*text-decoration: underline;*/
+}
+
+.trailer a:link
+{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.trailer a:visited
+{
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.trailer a:hover
+{
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.trailer a:active
+{
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /**********************************************************/
 /**                      Pixel Art                       **/
