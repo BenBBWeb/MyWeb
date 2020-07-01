@@ -86,6 +86,11 @@ nav a:hover
   font-weight:bold;
 }
 
+.secret a
+{
+  color:Black;
+}
+
 /***************Lists******************/
 ul
 {
